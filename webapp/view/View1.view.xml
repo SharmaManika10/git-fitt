@@ -1,0 +1,31 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="zdemomonths.zdemo_months.controller.View1" 
+displayBlock="true">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+					    
+					    <VBox width="100%" direction="Column" id="vbox0">
+					        <items>
+					        	<Button xmlns="sap.m" text="January" id="Jan" press="onPress"/>
+					            <Button xmlns="sap.m" text="February" id="Feb" press="onPress"/>
+					            <Button xmlns="sap.m" text="March" id="Mar" press="onPress"/>
+					            <Button xmlns="sap.m" text="April" id="Apr" press="onPress"/>
+					            <Button xmlns="sap.m" text="May" id="May" press="onPress"/>
+					            <Button xmlns="sap.m" text="June" id="Jun" press="onPress"/>
+					            <Button xmlns="sap.m" text="July" id="Jul" press="onPress"/>
+					            <Button xmlns="sap.m" text="August" id="Aug" press="onPress"/>
+					            <Button xmlns="sap.m" text="September" id="Sept" press="onPress"/>
+					            <Button xmlns="sap.m" text="October" id="Oct" press="onPress"/>
+					            <Button xmlns="sap.m" text="November" id="Nov" press="onPress"/>
+					            <Button xmlns="sap.m" text="December" id="Dec" press="onPress"/>
+					            
+					        </items>
+					    </VBox>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
